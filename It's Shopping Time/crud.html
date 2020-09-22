@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CRUD SHOPPING</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/design.css">
+  <script src="https://kit.fontawesome.com/e7109c2c4d.js" crossorigin="anonymous"></script>
+  <script src="js/teachers/models/product.js"></script>
+  <script src="js/teachers/models/productoperations.js"></script>
+  <script src="js/teachers/controllers/ctrl.js"></script>
+
+  <style>
+    .imgPixels {
+      height: 200px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="alert-success text-center">DASHBOARD</h1>
+    <div class="form-group">
+      <label for="">Id</label>
+      <input id="id" class="form-control" type="text" placeholder="Type Product Id" />
+    </div>
+    <div class="form-group">
+      <label for="">Name</label>
+      <textarea id="name" class="form-control" cols="30" rows="5" placeholder="Type Product Name Here"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="">Price</label>
+      <input id="price" class="form-control" type="text" placeholder="Type Price" />
+    </div>
+    <div class="form-group">
+      <label for="">Warranty</label>
+      <input id="warranty" class="form-control" type="text" placeholder="Type Warranty" />
+    </div>
+    <div class="form-group">
+      <label for="">Battery</label>
+      <input id="battery" class="form-control" type="text" placeholder="Type Battery" />
+    </div>
+    <div class="form-group">
+      <label for="">Image</label>
+      <input id="Image" class="form-control" type="text" placeholder="url" />
+    </div>
+    <!-- <div class="form-group">
+      <label for="">Right Ans</label>
+      <input id="rans" class="form-control" type="text" placeholder="Type Right Ans" />
+    </div> -->
+    <div class="form-group">
+      <label for="">Rating</label>
+      <input id="rating" class="form-control " type="range" min="1" max="10" value="1" />
+    </div>
+    <div class="form-group">
+      <button id="add" class="btn btn-primary fas fa-plus"> Add</button>
+      <button id="delete" class="btn btn-danger fas fa-trash"> Delete</button>
+      <!-- <button id="search" class="btn btn-info fas fa-search"> Search</button> -->
+      <!-- <button class="btn btn-secondary fas fa-edit"> Update</button> -->
+      <button class="btn btn-success fas fa-save" id="save"> Save</button>
+      <button class="btn btn-warning fas fa-spinner" id="load"> Load</button>
+      <!-- <button class="btn btn-secondary fas fa-folder-open"> Clear All</button> -->
+      <button class="btn btn-info fas fa-sort"> Sort</button>
+      <!-- <button class="btn btn-success fas fa-angle-double-up"> Save to Server</button> -->
+      <!-- <button class="btn btn-secondary fab fa-superpowers"> Fetch From Server</button> -->
+    </div>
+    <div class="form-row" id="searchBox">
+      <div class="col">
+        <select class="form-control" id="searchByProperty">
+          <option value="">Search By</option>
+          <option value="">Id</option>
+          <option value="">product name</option>
+          <!-- <option value="">Right Answer</option> -->
+          <option value="">Rating</option>
+        </select>
+      </div>
+      <!-- <div class="col"> -->
+      <!-- <input type="text" class="form-control" id="searchByValue" placeholder="Enter value to search here"> -->
+      <!-- </div> -->
+
+    </div>
+    <div>
+      <h3>Total Records are <span id="total"></span></h3>
+      <h4>Mark Records <span id="mark"></span></h4>
+
+      <h5>UnMark Record <span id="unmark"></span></h5>
+      <span id="qname"></span>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Warranty</th>
+            <th>Battery</th>
+            <th>Image</th>
+            <!-- <th>rans</th> -->
+            <th>Rating</th>
+            <th>Operations</th>
+          </tr>
+        </thead>
+        <tbody id='products'>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

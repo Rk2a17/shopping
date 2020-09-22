@@ -1,0 +1,17 @@
+{
+  "name": "loginpage",
+  "authors": [
+    "Rk2a17 <51821263+Rk2a17@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "brainMentors",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

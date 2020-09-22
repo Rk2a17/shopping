@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="firebase/firebaseConfig.js"></script>
+    <script src="firebase/firebaseOperations.js"></script>
+
+    <script src="js/user.js"></script>
+    <script src="js/register.js"></script>
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class='container'>
+        <h1 class='alert-success text-center'>Register New User</h1>
+        <h3 class='alert-danger' id='error'></h3>
+        <div class='form-group'>
+            <label for="">Username</label>
+            <input class='form-control' id="Username" type="text" placeholder="First Name">
+        </div>
+
+        <div class='form-group'>
+            <label for="">Lastname</label>
+            <input class='form-control' id="Lastname" type="text" placeholder="Last Name">
+        </div>
+
+        <div class='form-group'>
+            <label for="">Password</label>
+            <input class='form-control' id="password" placeholder="Type Your Password Here" type="password">
+        </div>
+        <div class='form-group'>
+            <label for="">Confirm Password</label>
+            <input class='form-control' id="Confirmpassword" placeholder="Confirm Password" type="password">
+        </div>
+        <div class='form-group'>
+            <label for="">Email id</label>
+            <input type="text" class="form-control" id="Emailid" placeholder="Type your Email id">
+        </div>
+
+        <div>
+            Already have account?<a href="login.html">Log In</a>
+        </div>
+        <div class='form-group'>
+            <button class='btn btn-primary' onclick="doRegister()">Register</button>
+        </div>
+    </div>
+</body>
+
+</html>

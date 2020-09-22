@@ -1,0 +1,276 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Iphone 11 pro",
+        "price": 400,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://ksassets.timeincuk.net/wp/uploads/sites/54/2019/08/iPhone_11_Pro_cases.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Samsung Note 10",
+        "price": 100,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://www.slashgear.com/wp-content/uploads/2019/07/galaxy-note-10-1280x720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "OnePlus 7t",
+        "price": 70,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://media.nu.nl/m/75vxe4ya6fby_wd1280.jpg/oneplus-presenteert-nieuwe-telefoon-met-snelle-beeldverversing.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Mi Mix 4",
+        "price": 22.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_09_IQDjvgSvPTi1ANhRw5N6iHXyO6VWZll8JEPtsKwdQCA5X&s"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Samsung J7 Max",
+        "price": 88.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://gadgetstouse.com/wp-content/uploads/2018/03/black_img1-1280x720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Mi Max 2",
+        "price": 32.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://images.firstpost.com/wp-content/uploads/2017/09/Xiaomi-Mi-Max-2-1280-720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Huawei Mate 30 pro",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://www.slashgear.com/wp-content/uploads/2019/09/03-Mate-30-Pro_Horizon-Display-1280x720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "Iphone XS",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://www.naldotech.com/wp-content/uploads/2018/09/iphone-xs-live-wallpaper-download.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "Iphone XR",
+        "price": 100.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://smartphonephotographytraining.com/wp-content/uploads/2018/09/3437558-iphonexr-promo.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "OnePlus 7",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://i0.wp.com/phoneradar.com/wp-content/uploads/2019/05/OnePlus-7-Pro-Leaked-Press-Renders.png?fit=1280%2C720&ssl=1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Samsung Galaxy S10",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2FSamsung-Galaxy-S10-fam-3-of-10.jpg&signature=1e9dc4a3bef20300dbd41125a27f0404"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Sony Xperia-1",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://www.slashgear.com/wp-content/uploads/2019/05/Xperia-1_groupBF40_Purple_wo_clock-1280x720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "13"
+      },
+      "fields": {
+        "title": "OPPO F11",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://androidkenya.com/wp-content/uploads/2019/04/Oppo-F11-and-F11-Pro-launch-in-Kenya.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "14"
+      },
+      "fields": {
+        "title": "Vivo NEX",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://wallpapershome.com/images/pages/pic_h/20996.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "15"
+      },
+      "fields": {
+        "title": "VIVO V11",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://thebravia.com/wp-content/uploads/2018/09/the-bravia1-65.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "16"
+      },
+      "fields": {
+        "title": "Google Pixel 4",
+        "price": 33.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://www.slashgear.com/wp-content/uploads/2019/09/pixel-4-xl-panda-1280x720.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "17"
+      },
+      "fields": {
+        "title": "nokia",
+        "price": 33.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ0fwYGBowKntiRXSGg5Pc070rH1PT9IxFO-Ebgjh1e7L6TK-7XI51qVAQiVB7sD_SMGsWgCAQFElvy3b1B-pepbD7box6rgKm8gwmKH_c&usqp=CAc.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
